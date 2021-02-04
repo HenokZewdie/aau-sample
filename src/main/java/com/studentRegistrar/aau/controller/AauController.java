@@ -22,7 +22,7 @@ import order.RegisterUser;
 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
-public class Controller {
+public class AauController {
 
 	private final static Logger LOGGER =  
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME); 

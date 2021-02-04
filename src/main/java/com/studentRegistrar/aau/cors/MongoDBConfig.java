@@ -26,7 +26,7 @@ public class MongoDBConfig {
 	@Bean
     public MongoDbFactory mongoDbFactory() throws Exception {
         MongoClient mongoClient = new MongoClient("localhost", 27017);
-        return new SimpleMongoDbFactory(mongoClient, "Order_DB");
+        return new SimpleMongoDbFactory(mongoClient, "AAU-DB");
     }
  
     @Bean
